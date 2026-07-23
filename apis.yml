@@ -1,22 +1,57 @@
 aid: abyrx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abyrx.png
 name: Abyrx
-description: Abyrx is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Abyrx is a medical device company that develops a materials-science platform
+  for therapeutic devices used during surgical procedures, with an initial focus
+  on hemostatic bone putties. Its flagship product, MONTAGE, is a cohesive,
+  settable, and resorbable hemostatic bone putty that adheres to bleeding bone
+  surfaces, used in orthopedic, trauma, spine, sports medicine, cranial,
+  maxillofacial, and cardiothoracic surgeries. Abyrx is a B2B medical device
+  manufacturer serving healthcare providers and surgeons; it is not a technology
+  platform and publishes no public API, developer portal, or technical
+  documentation. This profile was surfaced as a portfolio company of Canaan
+  Partners and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/abyrx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Surgical
+- Hemostatics
+- MedTech
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://abyrx.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
